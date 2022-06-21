@@ -24,7 +24,7 @@ connectToContract(config).then(function(connection) {
 
   app.post('/api/createasset', async function (req, res) {
     try {
-      const assetKey = getRandomInt(0,10000000)
+      const assetKey = req.body.id
       const assetColor = req.body.color;
       const assetSize = req.body.size;
       const assetOwner = req.body.owner;
@@ -40,8 +40,8 @@ connectToContract(config).then(function(connection) {
     }	
   });
 
-  app.listen(3000, function() {
-    console.log('-api listeing on port 3000!');
+  app.listen(8001, function() {
+    console.log('-api listeing on port 8001!');
   })
 })
 
