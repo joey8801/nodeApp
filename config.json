@@ -1,0 +1,15 @@
+{
+  "channel": "mychannel",
+  "cc": "basic",
+  "userName": "User1@org1.example.com",
+  "ccpPath": "../organizations/peerOrganizations/org1.example.com/connection-org1.json",
+  "walletPath": "./wallet",
+  "msp": "Org1MSP",
+  "ca": "ca.org1.example.com",
+  "pathToUser" : "/peerOrganizations/org1.example.com/users/User1@org1.example.com",
+  "pathToUserSignCert": "/msp/signcerts/User1@org1.example.com",
+  "privateKey": "/msp/keystore/priv_sk",
+  "identityLabel": "appUser1",
+  "peer":"peer0.org1.example.com",
+  "deviceName":"jouk"
+}
